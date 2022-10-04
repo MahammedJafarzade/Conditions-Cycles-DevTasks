@@ -146,15 +146,132 @@ namespace ConsoleApp1
 
             #endregion
             #region Task7
-            //Console.WriteLine("Choose option:");
+             //Console.WriteLine("Choose option:");
             //string option = Console.ReadLine();
-            ////a.Take a 3 - digit number as input,
-            ////and say if square of this number equals
-            ////sum of all it’s digits to the power of 3.
-            //if (option == "a")
-            //{
-            //    Console.WriteLine("Enter 3 digit number:");
+            //a.Take a 3 - digit number as input,
+            //and say if square of this number equals
+            //sum of all it’s digits to the power of 3.
 
+           // if (option == "1")
+          // {
+            //bool IsThreedigit = false;
+            //int num = 0;
+            //    Console.WriteLine("Enter 3 digit number:");
+            //    num=int.Parse(Console.ReadLine());
+            //    if(num>99&&num<1000)
+            //    {
+            //        IsThreedigit=true;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("3-digit number required!");
+            //    }
+            //    int first = num / 100;
+            //    int second = num / 10 % 10;
+            //    int third = num % 10;
+            //    if (Math.Pow(num,2)==Math.Pow((first+second+third),3))
+            //    {
+            //        Console.WriteLine("Yes they are equal\n" + Math.Pow(num, 2) + " is equal to " + Math.Pow((first + second + third), 3));
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("False");
+            //    }
+            //}
+            //else if (option=="2")
+            //  {
+            //    //Take a 4 - digit number and say if sum of first two digits equals sum of last 2 digits.
+            //    bool Isfourdigit = false;
+            //    int num = 0;
+            //    Console.WriteLine("Enter 4 digit number:");
+            //    num = int.Parse(Console.ReadLine());
+            //    if (num > 999 && num < 10000)
+            //    {
+            //        Isfourdigit = true;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("4 digit number required!");
+            //    } while (Isfourdigit)
+            //    {
+            //    int first = num / 1000;
+            //    int second = num / 100 % 10;
+            //    int third = num / 10 % 10;
+            //    int fourth = num % 10;
+            //        if (first + second == third + fourth)
+            //        {
+            //            Console.WriteLine($"Yes {first + second} is equal to {third + fourth}");
+            //            Isfourdigit = false;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine($"No {first + second} is not equal to {third + fourth}");
+            //            Isfourdigit = false;
+
+            //        }
+            //    }
+        
+           // }
+            //else if (option=="3")
+            //{
+            //    //Take a 3 - digit number as input.Say if there any 2 similar digits in it.
+            //    bool IsThreedigit = false;
+            //    int num = 0;
+            //    Console.WriteLine("Enter 3 digit number:");
+            //    num = int.Parse(Console.ReadLine());
+            //    if (num > 99 && num < 1000)
+            //    {
+            //        IsThreedigit = true;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("3-digit number required!");
+            //    }
+            //    int first = num%10;
+            //    int second = num / 10 % 10;
+            //    int third = num / 100;
+            //        if (first==second||second==third||first==third)
+            //        {
+            //            Console.WriteLine("There are similar digit numbers");
+            //            IsThreedigit=false;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("There are not similar digit numbers");
+            //            IsThreedigit=false;
+            //        }
+            //}
+            //else if (option=="4")
+            //{
+            //    // Take a float number. Say if first 3 digits after comma contains 0.
+            //    float num = 0;
+            //    bool flag = false;
+            //    Console.WriteLine("Enter float number:");
+            //    num = float.Parse(Console.ReadLine());
+            //    num =  ((int)(num*1000))%1000;
+            //    int num_2 = (int)num;
+            //    while (num_2!=0)
+            //    {
+            //        int temp = num_2 % 10;
+
+            //        num_2 /= 10;
+
+            //        if (temp == 0)
+            //        {
+            //            flag = true;
+                    
+            //        }
+            //    }
+
+            //    if (flag)
+            //    {
+            //    Console.WriteLine("There is zero");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("There is no zero");
+            //    }
+                    
             //}
 
             #endregion
