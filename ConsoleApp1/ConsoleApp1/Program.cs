@@ -4,6 +4,19 @@ namespace ConsoleApp1
 {
     class Program
     {
+
+        static int FindFactorial(int num)
+        {
+            int fact = 1;
+            
+            for (int i = 1; i < num; i++)
+            
+            {
+                fact = fact * i;
+                
+            }
+            return fact;
+        }
         static void Main(string[] args)
         {
             #region Conditions/Task1
@@ -146,14 +159,14 @@ namespace ConsoleApp1
 
             #endregion
             #region Task7
-             //Console.WriteLine("Choose option:");
+            //Console.WriteLine("Choose option:");
             //string option = Console.ReadLine();
             //a.Take a 3 - digit number as input,
             //and say if square of this number equals
             //sum of all it’s digits to the power of 3.
 
-           // if (option == "1")
-          // {
+            // if (option == "1")
+            // {
             //bool IsThreedigit = false;
             //int num = 0;
             //    Console.WriteLine("Enter 3 digit number:");
@@ -210,8 +223,8 @@ namespace ConsoleApp1
 
             //        }
             //    }
-        
-           // }
+
+            // }
             //else if (option=="3")
             //{
             //    //Take a 3 - digit number as input.Say if there any 2 similar digits in it.
@@ -259,7 +272,7 @@ namespace ConsoleApp1
             //        if (temp == 0)
             //        {
             //            flag = true;
-                    
+
             //        }
             //    }
 
@@ -271,7 +284,7 @@ namespace ConsoleApp1
             //    {
             //        Console.WriteLine("There is no zero");
             //    }
-                    
+
             //}
 
             #endregion
@@ -327,8 +340,111 @@ namespace ConsoleApp1
             //}
             //Console.WriteLine(result);
             #endregion
-           
-           
+            #region Task17
+            //bool flag = true;
+            //for (int j = 2; j <= 9; j++)
+            //{
+            //    for (int i = 10; i < 99; i++)
+            //    {
+            //        int a = i / 10;
+            //        int b = i % 10;
+            //        int s = a + b;
+            //        int p;
+            //        p = j * i;
+            //        if (s == p / 100 + (p / 10) % 10 + p % 10)
+            //        {
+            //            Console.WriteLine(i + "");
+            //        }
+            //    }
+
+            //}
+            #endregion
+            #region Task18
+            //18.Find out every 3-digit number that can be represented as sum of all its digit’s factorials.
+            //bool IsThreeDigit = false;
+            //int num = 0;
+            //int fact = 1;
+            //Console.WriteLine("Enter 3 digit number:");
+            //num = int.Parse(Console.ReadLine());
+            //int num2 = num;
+            //if (num > 99 && num < 1000)
+            //{
+            //    IsThreeDigit = true;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("2-digit number required!");
+            //}
+            
+            //int sumOfDigits = 0;
+            //while (num!=0)
+            //{
+            //   int temp=FindFactorial(num % 10);
+            //   sumOfDigits += temp;
+            //   num /= 10;
+            //}
+            //if (sumOfDigits == num2)
+            //{
+            //    Console.WriteLine("It is equal");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("It is not equal");
+
+            //}
+            #endregion
+            #region Task19
+            //19.Is it possible to represent given number as sum of two positive numbers powered to 2 ?
+            //bool IsTwoDigit = false;
+            //int num = 0;
+            //Console.WriteLine("Enter 2 digit number:");
+            //num = int.Parse(Console.ReadLine());
+            //if (num > 9 && num < 100)
+            //{
+            //    IsTwoDigit = true;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("2-digit number required!");
+            //}
+            //int first = num % 10;
+            //int second = num / 10;
+            //int sum = first + second;
+
+            //if (Math.Pow(sum,2)==num)
+            //{
+            //    Console.WriteLine("It is possible");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Impossible");
+            //}
+            #endregion
+            #region Task20
+            //20.Find out is given number perfect? I.e.number is equal to sum of all it’s positive divisors excepting the number by it’s own.
+            //int num = 0;
+            //Console.WriteLine("Enter number:");
+            //num = int.Parse(Console.ReadLine());
+            //int sum = 1;
+            //for (int i = 2; i <= num / 2; i++)
+            //{
+            //    if (num % i == 0)
+            //    {
+            //        sum += i;
+            //    }
+
+            //}
+            //if (sum == num)
+            //{
+            //    Console.WriteLine("Perfect number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No Perfect number");
+
+            //}
+            #endregion
+
         }
     }
-}
+    }
